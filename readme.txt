@@ -11,9 +11,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 No Follow all external links. The nofollow is added last thing before page load.  This effects all code (theme and content).  This is not visable in the page or post editor because it doesn't take effect until the page actually renders.
 
-*Added New Feature*
+**Added New Feature**
+* Turn nofollow on and off with CSS class "follow"
 
-If you do want to pass the link juice to a specific link add the CSS class "follow" example &lt;a href="http://riseofweb.com" class="follow"&gt;...  If the link has the class "follow" the rel="nofollow" will not be added.
+If you do want to pass the link juice to a specific link add the CSS **class "follow"** example &lt;a href="http://riseofweb.com" class="follow"&gt;...  If the link has the class "follow" the rel="nofollow" will not be added.
 
 Tell search engine crawlers to only crawl your website and pass no link juice to anyone else. Unless link has the class "follow".
 
