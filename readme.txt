@@ -4,14 +4,17 @@ Donate link: http://riseofweb.com/
 Tags: NoFollow, No Follow, Outbound Links, SEO, Crawler, External Links
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 
-No Follow all external links. The nofollow is added last thing before page load.  This effects all code (theme and content).
+No Follow all external links. The nofollow is added last thing before page load.  This effects all code (theme and content).  This is not visable in the page or psot editor because it doesn't take effect until the page actually renders.
 
-Tell search engine crawlers to only crawl your website and pass no link juice to anyone else.
+*Added New Feature*
+If you do want to pass the link juice to a specific link add the CSS class "follow" example &lt;a href="http://riseofweb.com" class="follow"&gt;...  If the link has the class "follow" the rel="nofollow" will not be added.
+
+Tell search engine crawlers to only crawl your website and pass no link juice to anyone else. Unless link has the class "follow".
 
 For more information about this plugin or getting help with WordPress or SEO, vistit my website: [Rise of the Web](http://riseofweb.com).
 
@@ -34,3 +37,6 @@ If your outbound links are sketchy, or you don't like anyone but yourself, or yo
 
 = 1.0 =
 * Inital Release
+
+= 1.5 =
+* Added the "follow" CSS class reader to enable or disable specific links.
