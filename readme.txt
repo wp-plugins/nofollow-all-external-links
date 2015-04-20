@@ -3,7 +3,7 @@ Contributors: riseofweb
 Donate link: http://riseofweb.com/
 Tags: NoFollow, No Follow, Outbound Links, SEO, Crawler, External Links
 Requires at least: 3.5
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,6 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 No Follow all external links. The nofollow is added last thing before page load.  This effects all code (theme and content).  This is not visable in the page or post editor because it doesn't take effect until the page actually renders.
 
 **Added New Feature**
+
 * Turn nofollow on and off with CSS class "follow"
 
 If you do want to pass the link juice to a specific link add the CSS **class "follow"** example &lt;a href="http://riseofweb.com" class="follow"&gt;...  If the link has the class "follow" the rel="nofollow" will not be added.
