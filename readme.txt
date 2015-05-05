@@ -1,6 +1,6 @@
 === No Follow All External Links ===
 Contributors: riseofweb
-Donate link: http://riseofweb.com/
+Donate link: https://riseofweb.com/wordpress/
 Tags: NoFollow, No Follow, Outbound Links, SEO, Crawler, External Links
 Requires at least: 3.5
 Tested up to: 4.2
